@@ -1,2 +1,2 @@
 # Исключить большие библиотеки
-/lib* linguist-vendored
+lib/* linguist-vendored
