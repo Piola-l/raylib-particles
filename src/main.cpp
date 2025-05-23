@@ -5,7 +5,7 @@
 
 const int totalParticles = 20000;
 const int particleRandMax = 3;
-const int particleSpeedDivision = 5; // slower speed
+const int particleSpeedDivision = 8; // higher value - slower speed
 
 int main(void)
 {
@@ -41,7 +41,7 @@ int main(void)
         for (int i = 0; i < totalParticles; i++) {
             Particle& p = particles[i];
             p.speed.x = rand() % particleRandMax;
-            //p.speed.y = rand() % particleRandMax;
+            p.speed.y = rand() % particleRandMax;
             p.x = Lerp(p.x, mousePos.x, p.speed.x / particleSpeedDivision);
             p.y = Lerp(p.y, mousePos.y, p.speed.x / particleSpeedDivision);
             p.Update();
