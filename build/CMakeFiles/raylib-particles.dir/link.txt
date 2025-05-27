@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -Wl,--dependency-file=CMakeFiles/raylib-particles.dir/link.d "CMakeFiles/raylib-particles.dir/src/main.cpp.o" "CMakeFiles/raylib-particles.dir/src/particle.cpp.o" -o /mnt/other_stuff/CppProjects/raylib-3/bin/raylib-particles  /usr/lib64/libraylib.so -lpthread -ldl -lm -L/usr/lib64 -lraylib

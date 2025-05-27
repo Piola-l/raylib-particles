@@ -1,0 +1,3 @@
+/mnt/other_stuff/CppProjects/raylib-3/build/CMakeFiles/raylib-particles.dir
+/mnt/other_stuff/CppProjects/raylib-3/build/CMakeFiles/edit_cache.dir
+/mnt/other_stuff/CppProjects/raylib-3/build/CMakeFiles/rebuild_cache.dir

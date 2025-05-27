@@ -1,6 +1,6 @@
 # raylib-particles
 
-Build on GNU Linux with *build-lnx.sh* or you can just run *main*.
+Build on GNU Linux with *build-lnx.sh* or you can just run *bin/raylib-particles*.
 
 All source code is in *src*.
 All libraries are in *lib*.

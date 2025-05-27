@@ -1,3 +1,6 @@
 #/bin/bash
 
-g++ src/main.cpp src/particle.cpp -o main -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+cd build
+cmake ..
+cmake --build .
+./raylib-particles
