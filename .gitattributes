@@ -1,5 +1,8 @@
-# Исключить библиотеки
+# Exclude libraries
 lib/** linguist-vendored
+
+# Exclude build
+build/** linguist-vendored
 
 * text=auto
 Makefile linguist-generated=true
